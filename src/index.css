@@ -1,0 +1,44 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+:root{
+  --colorPrincipal:#2b3d4f;
+  --colorSecundario: #354a5f;
+  --colorTerciario: #708ba9;
+  --colorCuaternario:#e0daed;
+  --colorQuinto:#95a6a7;
+  --colorSexto:#00ddff;
+  --colorSeptimo:#637392;
+}
+
+.colorPrimario{
+  background-color: var(--colorPrincipal);
+}
+.colorSecundario{
+  
+  height: 100vh;
+  background-color: var(--colorSecundario);
+  
+}
+.colorTerciario{
+  background-color: var(--colorTerciario);
+}
+.colorCuaternario{
+  background-color: var(--colorCuaternario);
+}
+.colorQuinto{
+  background-color: var(--colorQuinto);
+}
+.colorSeptimo{
+background-color: var(--colorSeptimo);
+}
+.textoTerciario{
+  color: var(--colorSexto);
+}
+.textoCuaternario{
+  color: var(--colorCuaternario);
+}
+
