@@ -8,10 +8,10 @@ function Navbar() {
                 </div>
                 <div className="textoCuaternario " >
                     <nav className=" flex justify-evenly">
-                        <a className=" hover:text-white" href="">Home</a>
-                        <a className=" hover:text-white" href="">Proyects</a>
-                        <a className=" hover:text-white" href=""> Skills </a>
-                        <a className=" hover:text-white" href=""> Contact </a>
+                        <a className="hover:scale-110 duration-500  hover:text-white" href="">Home</a>
+                        <a className="hover:scale-110 duration-500  hover:text-white" href="">Proyects</a>
+                        <a className="hover:scale-110 duration-500  hover:text-white" href=""> Skills </a>
+                        <a className="hover:scale-110 duration-500  hover:text-white" href=""> Contact </a>
                     </nav>
                 </div>
             </div>

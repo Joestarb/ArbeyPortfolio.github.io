@@ -15,16 +15,16 @@ function Header() {
                 {/*---------------------------------- icons------------------------------------------------------------------------------------------------------------------------- */}
                 <div className=' flex  justify-stretch mt-4 gap-5'>
                     <a href="">
-                        <FaLinkedin className='textoTerciario  text-xl' />
+                        <FaLinkedin className='hover:scale-110 duration-500   textoTerciario  text-4xl' />
                     </a>
                     <a href="">
-                        <FaInstagram className='textoTerciario  text-xl ' />
+                        <FaInstagram className='hover:scale-110 duration-500   textoTerciario  text-4xl ' />
                     </a>
                     <a href="">
-                        <FaFacebookF className='textoTerciario  text-xl'/>
+                        <FaFacebookF className='hover:scale-110 duration-500   textoTerciario  text-4xl'/>
                     </a>
                     <a href="">
-                        <FaGithub className='textoTerciario  text-xl'/>
+                        <FaGithub className='hover:scale-110 duration-500   textoTerciario  text-4xl'/>
                     </a>
 
                 </div>
