@@ -6,7 +6,7 @@ function Navbar() {
                 <div  >
                     <a className="textoCuaternario hover:text-white" href="">Mi Portfolio</a>
                 </div>
-                <div className="textoCuaternario " >
+                <div className="textoCuaternario" >
                     <nav className=" flex justify-evenly">
                         <a className="hover:scale-110 duration-500  hover:text-white" href="">Home</a>
                         <a className="hover:scale-110 duration-500  hover:text-white" href="">Proyects</a>

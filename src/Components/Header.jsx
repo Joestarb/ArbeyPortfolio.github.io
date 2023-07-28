@@ -5,7 +5,7 @@ import { FaGithub } from 'react-icons/fa';
 
 function Header() {
     return (
-        <div className="grid place-items-center grid-cols-2  colorSecundario ">
+        <div className="grid place-items-center grid-cols-2  colorSecundario " id='Header'>
             <div className=" text-white">
                 <p className="  ">Hello it's me</p>
                 <h1 className=" font-bold text-6xl">Arbey Dzib</h1>

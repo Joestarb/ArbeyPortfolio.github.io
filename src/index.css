@@ -18,10 +18,11 @@
   background-color: var(--colorPrincipal);
 }
 .colorSecundario{
-  
-  height: 100vh;
   background-color: var(--colorSecundario);
-  
+}
+
+#Header{
+  height: 100vh;
 }
 .colorTerciario{
   background-color: var(--colorTerciario);

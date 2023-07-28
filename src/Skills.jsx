@@ -10,7 +10,7 @@ import {BiLogoReact} from 'react-icons/Bi'
 
 function Skills() {
   return (
-    <div className="colorTerciario grid place-content-center">
+    <div className="colorSecundario grid place-content-center">
       <h1 className=" text-white text-center font-semibold  text-2xl">Skills</h1>
 
       <div className="flex flex-wrap justify-around gap-6 ">
