@@ -5,41 +5,32 @@
 @tailwind utilities;
 
 :root{
-  --colorPrincipal:#2b3d4f;
-  --colorSecundario: #354a5f;
-  --colorTerciario: #708ba9;
-  --colorCuaternario:#e0daed;
-  --colorQuinto:#95a6a7;
-  --colorSexto:#00ddff;
-  --colorSeptimo:#637392;
-}
+ 
+  --colorPrimary:#00ddff; 
+  --colorSecondary:#2fb5ca; 
 
-.colorPrimario{
-  background-color: var(--colorPrincipal);
-}
-.colorSecundario{
-  background-color: var(--colorSecundario);
+
 }
 
 #Header{
   height: 100vh;
 }
-.colorTerciario{
-  background-color: var(--colorTerciario);
+.textPrimary{
+  color: var(--colorPrimary);
 }
-.colorCuaternario{
-  background-color: var(--colorCuaternario);
+.bgPrimary{
+  background-color: var(--colorSecondary);
+
 }
-.colorQuinto{
-  background-color: var(--colorQuinto);
-}
-.colorSeptimo{
-background-color: var(--colorSeptimo);
-}
-.textoTerciario{
-  color: var(--colorSexto);
-}
-.textoCuaternario{
-  color: var(--colorCuaternario);
+.black{
+  background-color: black;
+  z-index: -1;  
 }
 
+.fixed-navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 9999; 
+}

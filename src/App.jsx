@@ -1,20 +1,17 @@
-import Navbar from "./Components/Navbar"
-import Header from "./Components/Header"
-import Proyects from "./Components/Proyects"
-import './index.css'
-import Skills from "./Skills"
+import React from "react";
+import Navbar from "./Components/Navbar";
+import Header from "./Components/Header";
+import "./index.css";
+
+
+
 function App() {
-
-
   return (
     <>
       <Navbar />
-      <Header />
-      <Proyects />
-      <Skills />
-
-    </>
-  )
+       <Header />
+      </>
+    );
 }
 
-export default App
+export default App;
