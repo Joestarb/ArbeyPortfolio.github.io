@@ -1,8 +1,8 @@
 
 function Proyects() {
   return (
-    <div className="black">
-    <h1 className=" text-white  text-2xl font-semibold text-center 4xl ">
+    <div className="black grid place-content-cente  ">
+    <h1 className=" text-white  font-semibold textPrimary text-5xl text-center mt-20" id="Header">
         Proyects
     </h1>
    

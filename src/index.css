@@ -34,3 +34,13 @@
   width: 100%;
   z-index: 9999; 
 }
+.initiallyHidden {
+  opacity: 0;
+  
+}
+
+.aboutMebg{
+
+  background-color: #8b848436;
+
+}
