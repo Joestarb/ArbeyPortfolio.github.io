@@ -4,8 +4,8 @@
   function Navbar() {
     return (
       <>
-        <div className="black   fixed-navbar border-b-2   z-10 grid grid-cols-2  text-white place-content-center py-5">
-          <div>
+        <div className="black   fixed-navbar border-b-2   z-10 md:grid md:grid-cols-2  text-white place-content-center py-5">
+          <div className=" flex  max-sm:justify-center">
             <a className="textoCuaternario " href="/">Mi Portfolio</a>
           </div>
           <div className="textoCuaternario">

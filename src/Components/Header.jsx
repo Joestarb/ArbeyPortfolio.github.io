@@ -39,7 +39,7 @@ function Header() {
           });
         }, []);
     return (
-        <div className="grid place-items-center grid-cols-2   black" id='Header'>
+        <div className="grid place-items-center grid-cols-1 md:grid-cols-2  max-sm:mt-20     black" id='Header'>
             <div className=" text-white initiallyHidden  headerText ">
                 <p className="        hover:scale-110 duration-500 ">Hello it's me</p>
                 <h1 className="       hover:scale-110 duration-500 font-bold text-6xl">Arbey Dzib</h1>
@@ -63,7 +63,7 @@ function Header() {
                 </div>
             </div>
 
-            <div className="initiallyHidden photo bgPrimary grid place-content-center headerText" style={{ borderRadius: "50%", width: "400px", height: "400px" }}>
+            <div className="initiallyHidden photo bgPrimary grid place-content-center headerText" style={{ borderRadius: "50%", width: "300px", height: "300px" }}>
                 <img src="" alt="mi fotoxd" />
             </div>
         </div>

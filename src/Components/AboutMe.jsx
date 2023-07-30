@@ -11,7 +11,7 @@ function AboutMe() {
       opacity: [0, .9],
       duration: 1000, // Duration of the animation in milliseconds
       easing: 'easeInOutQuad', // Easing function for the animation  
-      rotate: '1turn',
+   
 
     });
 
