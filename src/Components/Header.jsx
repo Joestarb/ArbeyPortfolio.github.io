@@ -33,13 +33,13 @@ function Header() {
               duration: 1600,
               delay: 800,
               easing: 'easeInOutQuart',
-              delay: 250 
+             
             },
            
           });
         }, []);
     return (
-        <div className="grid place-items-center grid-cols-1 md:grid-cols-2  max-sm:mt-20     black" id='Header'>
+        <div className="grid place-items-center grid-cols-1 md:grid-cols-2  max-sm:mt-20" id='Header'>
             <div className=" text-white initiallyHidden  headerText ">
                 <p className="        hover:scale-110 duration-500 ">Hello it's me</p>
                 <h1 className="       hover:scale-110 duration-500 font-bold text-6xl">Arbey Dzib</h1>

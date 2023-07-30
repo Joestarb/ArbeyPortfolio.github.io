@@ -25,7 +25,8 @@
 .black{
   background-color: black;
   z-index: -1;  
-}
+
+  }
 
 .fixed-navbar {
   position: fixed;

@@ -22,11 +22,11 @@ function Proyects() {
 
   }, []);
   return (
-    <div className="black " id="Header">
-    <h1 className=" abtText abtText2 text-white font-semibold text-5xl text-center mt-16">
+    <div className=" black max-sm:   pt-24  ">
+    <h1 className=" abtText abtText2 text-white font-semibold text-5xl text-center mt-16 ">
       Past <span className="textPrimary ">Projects</span> 
     </h1>
-    <div className=" grid  place-content-center grid-cols-3  gap-9 m-20 mb-3 abtText abtText2 ">
+    <div className=" grid   place-content-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-9 m-20 mb-3 abtText abtText2 ">
         {ProyectsContent.map((project) => (
           <div className="aboutMebg  rounded-lg mb-10" key={project.id}>
             <div className="grid p-5 place-content-center">

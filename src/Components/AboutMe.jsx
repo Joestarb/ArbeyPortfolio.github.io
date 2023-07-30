@@ -36,10 +36,10 @@ function AboutMe() {
   return (
     <div>
 
-      <section className="black grid place-content-center mt-14" id='Header'>
+      <section className="black grid place-content-center mt-14">
       <h1 className=" text-white text-center font-semibold anime-icon contentAbt initiallyHidden text-2xl">About Me</h1>
 
-<div className="grid grid-cols-2 place-content-center aboutMebg contentAbt  mx-12 rounded-lg">
+<div className="grid grid-cols-1 md:grid-cols-2  aboutMebg contentAbt  mx-12 rounded-lg">
   <div>
     <h1 className=" text-white  font-semibold p-7 text-justify initiallyHidden  abtText2 abtText text-sm">
       I'm a 19-year-old student of software development with a passion for exploring

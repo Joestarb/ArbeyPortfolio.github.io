@@ -33,7 +33,7 @@
               </a>
               <a
                                 
-              
+              href="/contac"
                 className="hover:scale-110 duration-500 hover:text-white"
               >
                 Contact
