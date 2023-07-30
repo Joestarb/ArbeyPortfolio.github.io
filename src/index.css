@@ -6,7 +6,7 @@
 
 :root{
  
-  --colorPrimary:#00ddff; 
+  --colorPrimary:#ff8400; 
   --colorSecondary:#2fb5ca; 
 
 
@@ -40,7 +40,6 @@
 }
 
 .aboutMebg{
-
   background-color: #8b848436;
-
+  
 }

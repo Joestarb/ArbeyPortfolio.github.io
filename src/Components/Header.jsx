@@ -15,6 +15,26 @@ function Header() {
             easing: 'easeInOutQuad',
             duration: 1500,
             delay: anime.stagger(200), // Para agregar un retraso escalonado a cada elemento
+          });   
+          anime({
+            targets: '.photo', // Selecciona el elemento por su clase CSS
+            translateX: {
+              value:   0,
+              duration: 800
+            },
+            rotate: {
+              value: 360,
+              duration: 1800,
+              easing: 'easeInOutSine'
+            },
+            scale: {
+              value: 1,
+              duration: 1600,
+              delay: 800,
+              easing: 'easeInOutQuart',
+              delay: 250 
+            },
+           
           });
         }, []);
     return (
@@ -42,7 +62,7 @@ function Header() {
                 </div>
             </div>
 
-            <div className="initiallyHidden bgPrimary grid place-content-center headerText" style={{ borderRadius: "50%", width: "400px", height: "400px" }}>
+            <div className="initiallyHidden photo bgPrimary grid place-content-center headerText" style={{ borderRadius: "50%", width: "400px", height: "400px" }}>
                 <img src="" alt="mi fotoxd" />
             </div>
         </div>
