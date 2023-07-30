@@ -1,7 +1,9 @@
 
 function Contact() {
   return (
-    <div>
+    <div className=" p-20">
+
+      
         
     </div>
   )
