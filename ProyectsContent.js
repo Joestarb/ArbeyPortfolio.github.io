@@ -1,16 +1,17 @@
 import miniatura from "./src/assets/Miniaturas/miniatura.jpeg"
+import miniatura2 from "./src/assets/Miniaturas/miniatura2.jpeg"
 const ProyectsContent = [
     {
       id: 1,
-      projectName: "Pagina Freelance",
+      projectName: "Landing Freelance",
       projectDescription: "Html, Css ",
       productImage: miniatura,
     },
     {
         id: 2,
-        projectName: "Esotilin",
-        projectDescription: "holamundo",
-        productImage: ""
+        projectName: "Frontend Store",
+        projectDescription: "htmls, css",
+        productImage: miniatura2
       },
   ];
 

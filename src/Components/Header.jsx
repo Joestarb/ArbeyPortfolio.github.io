@@ -18,6 +18,7 @@ function Header() {
           });   
           anime({
             targets: '.photo', // Selecciona el elemento por su clase CSS
+            
             translateX: {
               value:   0,
               duration: 800
