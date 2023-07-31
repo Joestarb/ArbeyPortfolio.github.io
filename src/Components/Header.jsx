@@ -48,16 +48,16 @@ function Header() {
 
                 {/*---------------------------------- icons------------------------------------------------------------------------------------------------------------------------- */}
                 <div className='flex justify-stretch  mt-4 gap-5'>
-                    <a href="">
+                    <a className='border-2 p-2   to-cyan-400  rounded-full' href="">
                         <FaLinkedin className=' textPrimary   hover:scale-110 duration-500 text-4xl' />
                     </a>
-                    <a href="">
+                    <a className='border-2 p-2   to-cyan-400  rounded-full' href="">
                         <FaInstagram className=' textPrimary   hover:scale-110 duration-500 text-4xl' />
                     </a>
-                    <a href="">
+                    <a className='border-2 p-2   to-cyan-400  rounded-full' href="">
                         <FaFacebookF className=' textPrimary   hover:scale-110 duration-500 text-4xl' />
                     </a>
-                    <a href="">
+                    <a className='border-2 p-2   to-cyan-400  rounded-full  ' href="">
                         <FaGithub className=' textPrimary   hover:scale-110 duration-500 text-4xl' />
                     </a>
                 </div>

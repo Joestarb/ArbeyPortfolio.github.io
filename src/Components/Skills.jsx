@@ -6,10 +6,10 @@ import js from "../assets/javascript.svg"
 import { BiLogoTailwindCss } from 'react-icons/Bi'
 import { SiNestjs } from 'react-icons/si'
 import { BiLogoReact } from 'react-icons/Bi'
-import { useEffect } from 'react';
+
 function Skills() {
   return (
-    <div className=" mt-14 bg-cover"> 
+    <div className=" mt-14 bg-cover pb-10"> 
     <h1 className=" text-white text-center font-semibold  anime-icon initiallyHidden text-2xl ">Skills</h1>
     <div className=" grid   grid-cols-2 md:grid-cols-4  "  >
 

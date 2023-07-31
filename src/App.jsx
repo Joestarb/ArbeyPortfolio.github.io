@@ -5,6 +5,7 @@ import Header from "./Components/Header";
 import AboutMe from "./Components/AboutMe"
 import Proyects from "./Components/Proyects";
 import Contact from "./Components/Contact";
+import Footer from "./Components/Footer";
 import "./index.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
          <Route path="/proyects" element={<Proyects />} />
          <Route path="/contac" element={<Contact />} />
       </Routes>
+      <Footer/>
     </BrowserRouter>
     </div>
    
