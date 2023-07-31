@@ -30,16 +30,16 @@ const Footer = () => {
         <div className="text-center md:text-left">
           <h3 className="font-bold text-2xl">Redes Sociales</h3>
           <div className='flex justify-center md:justify-start mt-4 space-x-4'>
-            <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" className='textPrimary'>
+            <a href="https://www.linkedin.com/in/arbey-alexis-dzib-hernandez-15956a255/" target="_blank" rel="noopener noreferrer" className='textPrimary'>
               <FaLinkedin className='text-4xl hover:scale-110 duration-500' />
             </a>
-            <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" className='textPrimary'>
+            <a href="https://www.instagram.com/its.arbey/" target="_blank" rel="noopener noreferrer" className='textPrimary'>
               <FaInstagram className='text-4xl hover:scale-110 duration-500' />
             </a>
-            <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" className='textPrimary'>
+            <a href="https://web.facebook.com/profile.php?id=100010197391139" target="_blank" rel="noopener noreferrer" className='textPrimary'>
               <FaFacebookF className='text-4xl hover:scale-110 duration-500' />
             </a>
-            <a href="https://www.github.com/" target="_blank" rel="noopener noreferrer" className='textPrimary'>
+            <a href="https://github.com/Joestarb" target="_blank" rel="noopener noreferrer" className='textPrimary'>
               <FaGithub className='text-4xl hover:scale-110 duration-500' />
             </a>
           </div>

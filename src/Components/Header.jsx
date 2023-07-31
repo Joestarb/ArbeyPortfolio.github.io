@@ -48,16 +48,16 @@ function Header() {
 
                 {/*---------------------------------- icons------------------------------------------------------------------------------------------------------------------------- */}
                 <div className='flex justify-stretch  mt-4 gap-5'>
-                    <a className='border-2 p-2   to-cyan-400  rounded-full' href="">
+                    <a className='border-2 p-2   to-cyan-400  rounded-full' href="https://www.linkedin.com/in/arbey-alexis-dzib-hernandez-15956a255/">
                         <FaLinkedin className=' textPrimary   hover:scale-110 duration-500 text-4xl' />
                     </a>
-                    <a className='border-2 p-2   to-cyan-400  rounded-full' href="">
+                    <a className='border-2 p-2   to-cyan-400  rounded-full' href="https://www.instagram.com/its.arbey/">
                         <FaInstagram className=' textPrimary   hover:scale-110 duration-500 text-4xl' />
                     </a>
-                    <a className='border-2 p-2   to-cyan-400  rounded-full' href="">
+                    <a className='border-2 p-2   to-cyan-400  rounded-full' href="https://web.facebook.com/profile.php?id=100010197391139">
                         <FaFacebookF className=' textPrimary   hover:scale-110 duration-500 text-4xl' />
                     </a>
-                    <a className='border-2 p-2   to-cyan-400  rounded-full  ' href="">
+                    <a className='border-2 p-2   to-cyan-400  rounded-full  ' href="https://github.com/Joestarb">
                         <FaGithub className=' textPrimary   hover:scale-110 duration-500 text-4xl' />
                     </a>
                 </div>
