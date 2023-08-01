@@ -45,3 +45,26 @@
   background-color: #8b848436;
 
 }
+
+.wrapper {
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.centeredBox {
+	width: 100%;
+	text-align: center;
+}
+
+/* The Typewriter */
+
+#typewriter  {
+	
+}
+
+.cursor {
+	border-left: 4px solid white;
+}

@@ -6,11 +6,24 @@ function Contact() {
       
     anime({
       targets: '.translateTXT',
-      translateX: 200,
+      translateY: 20,
+      direction: 'alternate',
+      loop: 1,
+      opacity:[1],
+      delay: function(el, i, l) {
+        return i * 100;
+      },
+      endDelay: function(el, i, l) {
+        return (l - i) * 100;
+      }
+    });
+    anime({
+      targets: '.translateTXT2',
+      translateY:-20,
     
       direction: 'alternate',
       loop: 1,
-      opacity:[1,1],
+      opacity:[1],
       delay: function(el, i, l) {
         return i * 100;
       },
@@ -31,16 +44,16 @@ function Contact() {
     }, []);
   return (
     <div className="max-w-md mx-auto pt-20">
-      <div className=" text-4xl text-center    text-white">
-        <div className='  flex'>
-        <p className='translateTXT  '>C</p>
-      <p className='translateTXT  '>o</p>
-      <p className='translateTXT  '>n</p>
-      <p className='translateTXT  '>t</p>
-      <p className='translateTXT  '>a</p>
-      <p className='translateTXT  '>c</p>
-      <p className='translateTXT  '> t M</p>
-      <p className='translateTXT  '>e</p>
+      <div className=" text-4xl text-center   max-sm:mt-8  text-white">
+        <div className='  relative flex'>
+        <p className='translateTXT translateTXT2   '>C</p>
+      <p className='translateTXT translateTXT2   '>o</p>
+      <p className='translateTXT translateTXT2   '>n</p>
+      <p className='translateTXT translateTXT2   '>t</p>
+      <p className='translateTXT translateTXT2   '>a</p>
+      <p className='translateTXT translateTXT2   '>c</p>
+      <p className='translateTXT translateTXT2   '> t M</p>
+      <p className='translateTXT translateTXT2   '>e</p>
         </div>
     
     
