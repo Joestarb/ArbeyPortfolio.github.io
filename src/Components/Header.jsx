@@ -3,7 +3,9 @@ import { FaInstagram } from 'react-icons/fa';
 import { FaFacebookF } from 'react-icons/fa';
 import { FaGithub } from 'react-icons/fa';
 import { useEffect } from 'react';
+import pic from '../assets/porfilepic.jpg'
 import anime from 'animejs';
+
 
 function Header() {
     useEffect(() => {
@@ -64,8 +66,9 @@ function Header() {
             </div>
 
             <div className="initiallyHidden photo bgPrimary grid place-content-center headerText" style={{ borderRadius: "50%", width: "300px", height: "300px" }}>
-                <img src="" alt="mi fotoxd" />
+                <img className=' rounded-full' src={pic} alt="mi fotoxd" />
             </div>
+
         </div>
     );
 }

@@ -8,10 +8,12 @@ import Contact from "./Components/Contact";
 import Footer from "./Components/Footer";
 import "./index.css";
 
+
 function App() {
   return (
     <div className="black" id="Header">
  <BrowserRouter>
+ 
       <Navbar />
       <Routes>
         <Route path="/" element={<Header />}/>

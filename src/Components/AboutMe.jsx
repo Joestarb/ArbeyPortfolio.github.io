@@ -1,7 +1,17 @@
 import Skills from './Skills';
 import anime from 'animejs';
-import { useEffect } from 'react';
+import { useEffect, useState} from 'react';
 function AboutMe() {
+  const [isTyping, setIsTyping] = useState(true);
+  const textArray = [
+    "Hello, it's me.",
+    "My name is Arbey Dzib.",
+    "I'm a Software Development student.",
+    "Welcome to my portfolio.",
+  ];
+  const [currentText, setCurrentText] = useState('');
+  const [currentIndex, setCurrentIndex] = useState(0);
+
   useEffect(() => {
 
 
@@ -20,7 +30,7 @@ function AboutMe() {
       translateX: 0,
       opacity: [0, 1],
       easing: 'easeInOutQuad',
-      duration: 2500,
+      duration: 1500,
       delay: anime.stagger(200), // Para agregar un retraso escalonado a cada elemento
     });
     anime({
@@ -36,10 +46,10 @@ function AboutMe() {
   return (
     <div>
 
-      <section className="black grid place-content-center mt-14">
+      <section className="black grid place-content-center mt-16">
       <h1 className=" text-white text-center font-semibold anime-icon contentAbt initiallyHidden text-2xl">About Me</h1>
 
-<div className="grid grid-cols-1 md:grid-cols-2  aboutMebg contentAbt  mx-12 rounded-lg">
+<div className="grid  aboutMebg contentAbt  mx-12 rounded-lg">
   <div>
     <h1 className=" text-white  font-semibold p-7 text-justify initiallyHidden  abtText2 abtText text-sm">
       I'm a 19-year-old student of software development with a passion for exploring
