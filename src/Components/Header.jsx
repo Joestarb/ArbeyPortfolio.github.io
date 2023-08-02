@@ -49,7 +49,7 @@ function Header() {
                 <p className="      hover:scale-110 duration-500 text-xs">Lorem ipsum, dolor sit amet consectetur adipisicing  elit. Tempora corporis, <br /> dolore perferendis null</p>
 
                 {/*---------------------------------- icons------------------------------------------------------------------------------------------------------------------------- */}
-                <div className='flex justify-stretch  mt-4 gap-5'>
+                <div className='flex justify-stretch  flex-wrap  mt-4 gap-5'>
                     <a className='neon-background    p-4    rounded-full' href="https://www.linkedin.com/in/arbey-alexis-dzib-hernandez-15956a255/">
                         <FaLinkedin className='  text-black   hover:scale-110 duration-500 text-4xl' />
                     </a>
