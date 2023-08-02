@@ -50,23 +50,23 @@ function Header() {
 
                 {/*---------------------------------- icons------------------------------------------------------------------------------------------------------------------------- */}
                 <div className='flex justify-stretch  mt-4 gap-5'>
-                    <a className='border-2 p-2   to-cyan-400  rounded-full' href="https://www.linkedin.com/in/arbey-alexis-dzib-hernandez-15956a255/">
-                        <FaLinkedin className=' textPrimary   hover:scale-110 duration-500 text-4xl' />
+                    <a className='neon-background    p-4    rounded-full' href="https://www.linkedin.com/in/arbey-alexis-dzib-hernandez-15956a255/">
+                        <FaLinkedin className='  text-black   hover:scale-110 duration-500 text-4xl' />
                     </a>
-                    <a className='border-2 p-2   to-cyan-400  rounded-full' href="https://www.instagram.com/its.arbey/">
-                        <FaInstagram className=' textPrimary   hover:scale-110 duration-500 text-4xl' />
+                    <a className='neon-background    p-4    rounded-full' href="https://www.instagram.com/its.arbey/">
+                        <FaInstagram className='  text-black   hover:scale-110 duration-500 text-4xl' />
                     </a>
-                    <a className='border-2 p-2   to-cyan-400  rounded-full' href="https://web.facebook.com/profile.php?id=100010197391139">
-                        <FaFacebookF className=' textPrimary   hover:scale-110 duration-500 text-4xl' />
+                    <a className='neon-background    p-4    rounded-full' href="https://web.facebook.com/profile.php?id=100010197391139">
+                        <FaFacebookF className='  text-black   hover:scale-110 duration-500 text-4xl' />
                     </a>
-                    <a className='border-2 p-2   to-cyan-400  rounded-full  ' href="https://github.com/Joestarb">
-                        <FaGithub className=' textPrimary   hover:scale-110 duration-500 text-4xl' />
+                    <a className='neon-background    p-4    rounded-full  ' href="https://github.com/Joestarb">
+                        <FaGithub className='  text-black   hover:scale-110 duration-500 text-4xl' />
                     </a>
                 </div>
             </div>
 
-            <div className="initiallyHidden photo bgPrimary grid place-content-center headerText" style={{ borderRadius: "50%", width: "300px", height: "300px" }}>
-                <img className=' rounded-full' src={pic} alt="mi fotoxd" />
+            <div className="initiallyHidden headerText photo  w-80 grid place-content-center ">
+                <img className=' neon-background  p-5 rounded-full' src={pic} alt="mi fotoxd" />
             </div>
 
         </div>

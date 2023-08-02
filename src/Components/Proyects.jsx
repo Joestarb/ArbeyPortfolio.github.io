@@ -23,16 +23,17 @@ function Proyects() {
   }, []);
   return (
     <div className=" black max-sm:   pt-24  ">
-    <h1 className=" abtText abtText2 text-white font-semibold text-5xl text-center mt-16 ">
+    <h1 className=" abtText abtText2 text-white font-semibold text-5xl text-center mt-10 ">
       Past <span className="textPrimary ">Projects</span> 
     </h1>
     <div className=" grid   place-content-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-9 m-20 mb-3 abtText abtText2 ">
         {ProyectsContent.map((project) => (
-          <div className="aboutMebg  rounded-lg mb-10" key={project.id}>
-            <div className="grid p-5 place-content-center">
+          <div className="aboutMebg hover:scale-110 duration-500 rounded-lg mb-10" key={project.id}>
+           <a href={project.url}> 
+            <div className="grid   p-5 place-content-center">
             <img  className="w-96" src={project.productImage} alt={project.projectName} />
             </div>
-            <a href={project.url}> 
+            
             <div>
               <p className="text-white text-xl">{project.projectName}</p>
               <p className=" text-white">{project.projectDescription}</p>
