@@ -5,7 +5,8 @@ import { FaGithub } from 'react-icons/fa';
 import { useEffect } from 'react';
 import pic from '../assets/porfilepic.jpg'
 import anime from 'animejs';
-
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 
 function Header() {
     useEffect(() => {
@@ -41,7 +42,10 @@ function Header() {
           });
         }, []);
     return (
+        <>
+        <Navbar/>
         <div className="grid place-items-center grid-cols-1 md:grid-cols-2  max-sm:mt-20" id='Header'>
+      
             <div className=" text-white initiallyHidden  headerText ">
                 <p className="        hover:scale-110 duration-500 ">Hello it's me</p>
                 <h1 className="       hover:scale-110 duration-500 font-bold text-6xl">Arbey Dzib</h1>
@@ -70,6 +74,8 @@ function Header() {
             </div>
 
         </div>
+        <Footer/>
+        </>
     );
 }
 

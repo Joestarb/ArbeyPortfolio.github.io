@@ -1,7 +1,8 @@
 import { useEffect } from 'react';
 import anime from 'animejs';
-
-function Contact() {
+import Navbar from "./Navbar";
+import Footer from "./Footer";
+function Contacto() {
   useEffect(() => {
       
     anime({
@@ -43,6 +44,8 @@ function Contact() {
   
     }, []);
   return (
+    <>
+    <Navbar/>
     <div className="max-w-md mx-auto pt-20">
       <div className=" text-4xl text-center   max-sm:mt-8  text-white">
         <div className='  relative flex'>
@@ -103,7 +106,9 @@ function Contact() {
         </div>
       </form>
     </div>
+    <Footer/>
+    </>
   )
 }
 
-export default Contact
+export default Contacto

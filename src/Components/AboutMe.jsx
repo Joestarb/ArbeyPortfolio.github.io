@@ -1,5 +1,7 @@
 import Skills from './Skills';
 import anime from 'animejs';
+import Footer from "./Footer";
+import Navbar from "./Navbar";
 import { useEffect, useState} from 'react';
 function AboutMe() {
   const [isTyping, setIsTyping] = useState(true);
@@ -45,7 +47,7 @@ function AboutMe() {
   }, []);
   return (
     <div>
-
+<Navbar/>
       <section className="black grid place-content-center mt-16">
       <h1 className=" text-white text-center font-semibold anime-icon contentAbt initiallyHidden text-2xl">About Me</h1>
 
@@ -70,7 +72,7 @@ function AboutMe() {
 <Skills/>
       </section>
      
-     
+     <Footer/>
     </div>
   )
 }

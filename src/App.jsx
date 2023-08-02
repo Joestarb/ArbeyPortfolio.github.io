@@ -1,28 +1,22 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Navbar from "./Components/Navbar";
+import { createBrowserRouter, RouterProvider } from "react-router-dom"
 import Header from "./Components/Header";
 import AboutMe from "./Components/AboutMe"
 import Proyects from "./Components/Proyects";
-import Contact from "./Components/Contact";
-import Footer from "./Components/Footer";
+import Contacto from "./Components/Contacto"
 import "./index.css";
 
 
+const router = createBrowserRouter([
+  {path: "/", element: <Header/>},
+  {path:"/about",element:<AboutMe />},
+  {path:'/proyects',element:<Proyects />},
+  {path: "/Contacto", element:<Contacto/>}
+])
 function App() {
   return (
     <div className="black" id="Header">
- <BrowserRouter>
- 
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Header />}/>
-         <Route path="/About" element={<AboutMe />} />
-         <Route path="/proyects" element={<Proyects />} />
-         <Route path="/contac" element={<Contact />} />
-      </Routes>
-      <Footer/>
-    </BrowserRouter>
+ <RouterProvider router={router}/>
     </div>
    
   );
