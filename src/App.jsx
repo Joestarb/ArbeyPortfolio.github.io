@@ -4,6 +4,8 @@ import Header from "./Components/Header";
 import AboutMe from "./Components/AboutMe"
 import Proyects from "./Components/Proyects";
 import Contacto from "./Components/Contacto"
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer";
 import "./index.css";
 
 
@@ -15,10 +17,13 @@ const router = createBrowserRouter([
 ])
 function App() {
   return (
+    <>
+    <Navbar/>
     <div className="black" id="Header">
  <RouterProvider router={router}/>
     </div>
-   
+    <Footer/>
+   </>
   );
 }
 

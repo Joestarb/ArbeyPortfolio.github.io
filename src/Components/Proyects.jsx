@@ -1,8 +1,7 @@
 import ProyectsContent from "../../ProyectsContent"
 import { useEffect } from "react";
 import anime from 'animejs';
-import Footer from "./Footer";
-import Navbar from "./Navbar";
+
 function Proyects() {
   useEffect(() => {
     anime({
@@ -25,7 +24,7 @@ function Proyects() {
   }, []);
   return (
     <>
-    <Navbar/>
+
     <div className=" black max-sm:   pt-24  ">
     <h1 className=" abtText abtText2 text-white font-semibold text-5xl text-center mt-10 ">
       Past <span className="textPrimary ">Projects</span> 
@@ -47,7 +46,7 @@ function Proyects() {
         ))}
       </div>
     </div>
-    <Footer/>
+
     </>
   );
 }
