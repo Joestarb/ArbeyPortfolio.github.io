@@ -61,23 +61,27 @@
 
 /* The Typewriter */
 
-.neon-background {
- 
-  background-image: linear-gradient(45deg, #00ddff, #2769a0, #00ddff);
+.neon-background  {
+
+  background-image: linear-gradient(45deg, #00ddff, #a600ff, #00ddff);
   background-size: 200% 200%;
 
   animation: neonAnimation 4s linear infinite;
 }
 
+
 @keyframes neonAnimation {
   0% {
-    background-position: 0% 50%;
+    background-position: 0% 50% ;
   }
   25% {
     background-position: 50% 25%;
   }
   50% {
     background-position: 100% 50%;
+  }
+  50% {
+    background-position: 90% 75%;
   }
   100% {
     background-position: 0% 50%;

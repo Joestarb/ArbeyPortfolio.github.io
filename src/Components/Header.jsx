@@ -49,7 +49,7 @@ function Header() {
             <div className=" text-white initiallyHidden  headerText ">
                 <p className="        hover:scale-110 duration-500 ">Hello it's me</p>
                 <h1 className="       hover:scale-110 duration-500 font-bold text-6xl">Arbey Dzib</h1>
-                <h2 className="    my-3  hover:scale-110 duration-500 font-semibold text-2xl">And i'm a <span className="   font-bold textPrimary">Software Develoment student</span></h2>
+                <h2 className="    my-3  hover:scale-110 duration-500 font-semibold text-2xl">And i'm a <span className="   font-bold textPrimary ">Software Develoment student</span></h2>
                 <p className="      hover:scale-110 duration-500 text-xs">Lorem ipsum, dolor sit amet consectetur adipisicing  elit. Tempora corporis, <br /> dolore perferendis null</p>
 
                 {/*---------------------------------- icons------------------------------------------------------------------------------------------------------------------------- */}
@@ -73,7 +73,7 @@ function Header() {
                 <img className=' neon-background  p-5 rounded-full' src={pic} alt="mi fotoxd" />
             </div>
 
-        </div>
+        </div>       
         <Footer/>
         </>
     );
