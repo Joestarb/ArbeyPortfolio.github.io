@@ -27,22 +27,7 @@ function AboutMe() {
 
     });
 
-    anime({
-      targets: '.abtText',
-      translateX: 0,
-      opacity: [0, 1],
-      easing: 'easeInOutQuad',
-      duration: 1500,
-      delay: anime.stagger(200), // Para agregar un retraso escalonado a cada elemento
-    });
-    anime({
-      targets: '.abtText2',
-      translateX: -1000,
-      opacity: [0],
-      easing: 'easeInOutQuad',
-      duration: 0,
-
-    });
+  
 
   }, []);
   return (
@@ -53,7 +38,7 @@ function AboutMe() {
 
 <div className="grid  aboutMebg contentAbt  mx-12 rounded-lg">
   <div>
-    <h1 className=" text-white  font-semibold p-7 text-justify initiallyHidden  abtText2 abtText text-sm">
+    <h1 className=" text-white  font-semibold p-7 text-justify initiallyHidden anime-icon    text-sm">
       I'm a 19-year-old student of software development with a passion for exploring
       the world of web development. As an enthusiastic self-learner, I find joy in continuously
       expanding my knowledge and skills in the dynamic field of front-end web development.

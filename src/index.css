@@ -63,7 +63,7 @@
 
 .neon-background  {
 
-  background-image: linear-gradient(45deg, #00ddff, #a600ff, #00ddff);
+  background-image: linear-gradient( 36deg, #00ddff,#3c3383, #00ddff);
   background-size: 200% 200%;
 
   animation: neonAnimation 4s linear infinite;
@@ -75,15 +75,30 @@
     background-position: 0% 50% ;
   }
   25% {
-    background-position: 50% 25%;
+    background-position: 89% 25%;
   }
   50% {
     background-position: 100% 50%;
   }
-  50% {
-    background-position: 90% 75%;
+  75% {
+    background-position: 90% 100%;
   }
   100% {
     background-position: 0% 50%;
   }
+}
+
+
+/* Estilos iniciales del div */
+#miDiv {
+  position: relative;
+  transform: translateY(100px); /* La posición inicial desde abajo */
+ 
+  transition: transform 1s, opacity 1s; /* Transiciones para animar translateY y opacity */
+}
+
+/* Estilos para la animación al mostrar el div */
+#miDiv.mostrar {
+  transform: translateY(0); /* La posición final, que es la posición original */
+  
 }

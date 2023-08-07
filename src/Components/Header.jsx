@@ -70,7 +70,7 @@ function Header() {
             </div>
 
             <div className="initiallyHidden headerText photo  w-80 grid place-content-center ">
-                <img className=' neon-background  p-5 rounded-full' src={pic} alt="mi fotoxd" />
+                <img className=' neon-background  p-2 rounded-full' src={pic} alt="mi fotoxd" />
             </div>
 
         </div>       

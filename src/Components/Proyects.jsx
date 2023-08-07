@@ -1,32 +1,40 @@
 import ProyectsContent from "../../ProyectsContent"
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
 import anime from 'animejs';
 import Footer from "./Footer";
 import Navbar from "./Navbar";
 function Proyects() {
+  const divRef = useRef(null);
   useEffect(() => {
     anime({
       targets: '.abtText',
-      translateY: 0,
-      opacity: [0, 1],
+     opacity: [0, 1],
       easing: 'easeInOutQuad',
       duration: 2500,
       delay: anime.stagger(200), // Para agregar un retraso escalonado a cada elemento
     });
     anime({
       targets: '.abtText2',
-      translateY: 100,
-      opacity: [0],
+       opacity: [0],
       easing: 'easeInOutQuad',
       duration: 0,
 
+    });
+    const divElement = divRef.current;
+
+    // Configura la animación usando anime.js
+    anime({
+      targets: divElement,
+      translateY: ['100px', '0px'], // Mueve el div desde -100px a su posición original
+      duration: 3000, // Duración de la animación en milisegundos (1 segundo en este caso)
+      easing: 'easeInOutQuad', // Tipo de interpolación para suavizar la animación
     });
 
   }, []);
   return (
     <>
     <Navbar/>
-    <div className=" black max-sm:   pt-24  ">
+    <div   className=" black max-sm:   pt-24  "  ref={divRef}>
     <h1 className=" abtText abtText2 text-white font-semibold text-5xl text-center mt-10 ">
       Past <span className="textPrimary ">Projects</span> 
     </h1>
