@@ -31,9 +31,9 @@ function AboutMe() {
 
   }, []);
   return (
-    <div>
+    <>
 <Navbar/>
-      <section className="black grid place-content-center mt-16">
+      <section className="black grid place-content-center mt-16 ">
       <h1 className=" text-white text-center font-semibold anime-icon contentAbt initiallyHidden text-2xl">About Me</h1>
 
 <div className="grid  aboutMebg contentAbt  mx-12 rounded-lg">
@@ -57,8 +57,8 @@ function AboutMe() {
 <Skills/>
       </section>
      
-     <Footer/>
-    </div>
+     <Footer />
+    </>
   )
 }
 

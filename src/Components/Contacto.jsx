@@ -79,12 +79,12 @@ function Contacto() {
       } else {
         alert('Por favor, completa todos los campos antes de enviar el formulario.');
       }
-    };
+    };  
   
   return (
     <>
     <Navbar/>
-    <div className="max-w-md mx-auto pt-20">
+    <div className="max-w-md mx-auto pt-20  max-sm:grid max-sm:place-content-center" id='Header'>
       <div className=" text-4xl text-center   max-sm:mt-8  text-white">
         <div className='  relative flex headerText'>
       <p className='translateTXT translateTXT2   '>C</p>

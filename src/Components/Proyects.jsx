@@ -34,7 +34,7 @@ function Proyects() {
   return (
     <>
     <Navbar/>
-    <div   className=" black max-sm:   pt-24  "  ref={divRef}>
+    <div   className=" black max-sm:   pt-24  "  ref={divRef}  >
     <h1 className=" abtText abtText2 text-white font-semibold text-5xl text-center mt-10 ">
       Past <span className="textPrimary ">Projects</span> 
     </h1>
